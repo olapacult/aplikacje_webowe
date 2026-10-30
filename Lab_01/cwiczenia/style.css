@@ -1,0 +1,73 @@
+body {
+  margin: 40px;
+}
+
+.link-1 {
+  color: rgb(108, 134, 206);
+}
+
+.link-2 {
+  color: rgb(188, 89, 177);
+}
+
+.link-3 {
+  color: rgb(129, 216, 134);
+}
+
+.artykul {
+  max-width: 600px;
+}
+
+.autor {
+  color: rgb(163, 82, 163);
+  font-weight: bold;
+}
+
+.artykul img {
+  display: block;
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+.tabela th,
+.tabela td {
+  border: 1px solid black;
+  padding: 8px 12px;
+}
+
+.tabela {
+  border-collapse: collapse;
+}
+
+.kwadraty {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.wiersz {
+  display: flex;
+  gap: 10px;
+}
+
+.kwadrat {
+  width: 100px;
+  height: 100px;
+}
+
+img.kwadrat {
+  object-fit: cover;
+}
+
+.k1 {
+  background-color: pink;
+}
+.k2 {
+  background-color: rgb(49, 133, 224);
+}
+.k3 {
+  background-color: lightgreen;
+}
+.k5 {
+  background-color: rgb(142, 131, 214);
+}
